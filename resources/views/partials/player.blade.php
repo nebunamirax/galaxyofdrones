@@ -55,5 +55,10 @@
             <i class="fas fa-bolt"></i>
             @{{ energy | number }}
         </div>
+        <div class="player-solarion"
+             v-popover="{placement: 'left', trigger: 'hover', title: '{{ __('validation.attributes.solarion') }}', content: solraionValue}" v-cloak>
+            <i class="fas fa-bolt"></i>
+            @{{ solarion | number }}
+        </div>
     </div>
 </player>
